@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    
+    <!-- Meta tags essenciais para configuração da página -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#000">
+    <meta name="color-scheme" content="light dark">
+    
+    <!-- Título e descrição para SEO -->
+    <title>KW Studio - Salão de Unhas em Piraquara | Designs Personalizados</title>
+    <meta name="description" content="KW Studio: salão especializado em unhas de mão e pé, design personalizado, manicure, pedicure e acrílico em Piraquara, PR. Atendimento profissional com qualidade.">
+    <meta name="keywords" content="salão de unhas, manicure, pedicure, design personalizado, Piraquara, PR">
+    <meta name="author" content="KW Studio">
+    
+    <!-- Tags OpenGraph para redes sociais -->
+    <meta property="og:title" content="KW Studio - Salão de Unhas">
+    <meta property="og:description" content="Salão especializado em unhas de mão e pé com designs personalizados">
+    <meta property="og:type" content="business.business">
+    <meta property="og:locale" content="pt_BR">
+    
+    <!-- Folhas de estilo -->
+    <link rel="stylesheet" href="STYLE.CSS">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <!-- HEADER: Navegação fixa no topo -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <!-- Logo/Brand -->
+                <div class="navbar-brand">
+                    <a href="#home" class="logo">KW STUDIO</a>
+                </div>
+
+                <!-- Botão de menu responsivo -->
+                <button class="menu-toggle" id="menuToggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="navMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <!-- Menu de navegação -->
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link">Início</a></li>
+                    <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#galeria" class="nav-link">Galeria</a></li>
+                    <li><a href="#localizacao" class="nav-link">Localização</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO: Seção principal de apresentação -->
+    <section id="home" class="hero" aria-label="Seção inicial do KW Studio">
+        <div class="hero-content">
+            <!-- Logo grande do KW (texto) -->
+            <div class="hero-logo">
+                <h1 class="logo-nome">KW</h1>
+                <h2 class="logo-studio">KAUANE WANDEMBRUCK</h2>
+            </div>
+       
+            <p class="hero-subtitle">" Beleza em Cada Detalhe "</p>
+
+            <!-- Botões de ação principal -->
+            <div class="hero-buttons">
+                <a href="https://wa.me/41984731761?text=Olá%21%20Gostaria%20de%20conhecer%20os%20serviços%20do%20KW%20Studio"
+                   class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+                <a href="#servicos" class="btn btn-secondary">Conheça Nossos Serviços</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVIÇOS: Card com descrição dos 3 principais serviços -->
+    <section id="servicos" class="servicos" aria-label="Nossos serviços">
+        <div class="container">
+            <h2 class="section-title">Nossos Serviços</h2>
+
+            <div class="servicos-grid">
+                <!-- Card 1: Unhas de Mão -->
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-hand-sparkles"></i>
+                    </div>
+                    <h3>Unhas de Mão</h3>
+                    <p>Manicure, esmalte gel, acrílico, decoração e designs personalizados para suas mãos ficarem perfeitas.</p>
+                    <a href="https://wa.me/41984731761?text=Quero%20agendar%20um%20atendimento%20de%20unhas%20de%20mão"
+                       class="btn-servico" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-whatsapp"></i> Agendar
+                    </a>
+                </div>
+
+                <!-- Card 2: Unhas de Pé -->
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-shoe-prints"></i>
+                    </div>
+                    <h3>Unhas de Pé</h3>
+                    <p>Pedicure completa, esmalte gel resistente, decoração sofisticada e cuidados profissionais para seus pés.</p>
+                    <a href="https://wa.me/41984731761?text=Quero%20agendar%20um%20atendimento%20de%20unhas%20de%20pé"
+                       class="btn-servico" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-whatsapp"></i> Agendar
+                    </a>
+                </div>
+
+                <!-- Card 3: Design Personalizado -->
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Design Personalizado</h3>
+                    <p>Criamos designs exclusivos de acordo com suas preferências, tendências e estilo pessoal.</p>
+                    <a href="https://wa.me/41984731761?text=Quero%20um%20design%20personalizado%20para%20minhas%20unhas"
+                       class="btn-servico" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-whatsapp"></i> Agendar
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE: Perfil do salão e história da fundadora -->
+    <section id="sobre" class="sobre" aria-label="Sobre o KW Studio">
+        <div class="container">
+            <h2 class="section-title">Sobre o KW Studio</h2>
+
+            <div class="sobre-content">
+                <div class="sobre-imagem">
+                    <img src="IMAGEM PERFIL/WhatsApp Image 2026-06-12 at 18.01.58.jpeg" alt="Foto de Kaune Wandembruck, fundadora do KW Studio" />
+                </div>
+                <div class="sobre-texto" style="font-size: 1.2rem;  text-align: center;">
+                    <p>KW Studio nasceu em Piraquara com um propósito claro: oferecer cuidados de unhas com carinho, estilo e atenção pessoal. Aqui, cada cliente recebe um serviço feito sob medida, desde a escolha da cor até o acabamento final.</p>
+                    <p>Eu sou Kauane Wandembruck, fundadora e responsável pelo Studio. Minha trajetória no universo das unhas começou por paixão e dedicação, e hoje eu transformo cada atendimento em uma experiência de beleza e autoestima.</p>
+                    <p>Com formação em manicure, pedicure, acrílico e design de unhas, trabalho com produtos de qualidade e técnicas modernas para garantir resultados duradouros. Meu compromisso é deixar você confiante e satisfeita, com unhas impecáveis e um atendimento acolhedor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERIA: Portfolio de trabalhos com filtros -->
+    <section id="galeria" class="galeria" aria-label="Galeria de trabalhos">
+        <div class="container">
+            <h2 class="section-title">Galeria de Trabalhos</h2>
+
+            <!-- Botões de filtro para categorias -->
+            <div class="filtro-galeria">
+                <button class="filtro-btn active" type="button" data-filtro="todos">
+                    <i class="fas fa-th"></i> Todos
+                </button>
+                <button class="filtro-btn" type="button" data-filtro="mao">
+                    <i class="fas fa-hand-sparkles"></i> Mão
+                </button>
+                <button class="filtro-btn" type="button" data-filtro="pe">
+                    <i class="fas fa-shoe-prints"></i> Pé
+                </button>
+                <button class="filtro-btn" type="button" data-filtro="design">
+                    <i class="fas fa-palette"></i> Design
+                </button>
+            </div>
+
+            <!-- Grid de itens da galeria (preenchido por JavaScript) -->
+            <div class="galeria-grid" id="galeria-grid">
+                <div class="galeria-item" data-categoria="Mão">
+                    <img src="IMAGENS/WhatsApp Image 2026-06-12 at 18.01.58.jpeg" alt="Unhas degradê dourado" />
+                    <span class="galeria-badge"><i class="fas fa-hand-sparkles"></i> Mão</span>
+                    <div class="galeria-overlay">
+                        <div class="overlay-content">
+                            <h4>Unhas Degradê</h4>
+                            <p>Design degradê sofisticado para mãos</p>
+                            <a href="https://wa.me/41984731761?text=Gostei%20deste%20design%20de%20unhas" class="overlay-btn" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i> Agendar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="galeria-item" data-categoria="Design">
+                    <img src="IMAGENS/WhatsApp Image 2026-06-12 at 18.01.59.jpeg" alt="Unhas decoradas com brilho" />
+                    <span class="galeria-badge"><i class="fas fa-palette"></i> Design</span>
+                    <div class="galeria-overlay">
+                        <div class="overlay-content">
+                            <h4>Design Decorado</h4>
+                            <p>Detalhes elegantes com brilho</p>
+                            <a href="https://wa.me/41984731761?text=Gostei%20deste%20design%20de%20unhas" class="overlay-btn" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i> Agendar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="galeria-item" data-categoria="Mão">
+                    <img src="IMAGENS/WhatsApp Image 2026-06-12 at 18.01.59 (1).jpeg" alt="Pedicure com esmalte vibrante" />
+                    <span class="galeria-badge"><i class="fas fa-shoe-prints"></i> Mão</span>
+                    <div class="galeria-overlay">
+                        <div class="overlay-content">
+                            <h4>Pedicure Vibrante</h4>
+                            <p>Acabamento impecável para mãos</p>
+                            <a href="https://wa.me/41984731761?text=Gostei%20deste%20design%20de%20unhas" class="overlay-btn" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i> Agendar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="galeria-item" data-categoria="Design">
+                    <img src="IMAGENS/WhatsApp Image 2026-06-12 at 18.01.59 (2).jpeg" alt="Unhas com arte personalizada" />
+                    <span class="galeria-badge"><i class="fas fa-palette"></i> Design</span>
+                    <div class="galeria-overlay">
+                        <div class="overlay-content">
+                            <h4>Arte Personalizada</h4>
+                            <p>Design criativo com acabamento premium</p>
+                            <a href="https://wa.me/41984731761?text=Gostei%20deste%20design%20de%20unhas" class="overlay-btn" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i> Agendar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="galeria-item" data-categoria="Mão">
+                    <img src="IMAGENS/WhatsApp Image 2026-06-12 at 18.01.59 (3).jpeg" alt="Unhas nude com decoração delicada" />
+                    <span class="galeria-badge"><i class="fas fa-hand-sparkles"></i> Mão</span>
+                    <div class="galeria-overlay">
+                        <div class="overlay-content">
+                            <h4>Acrílico Nude</h4>
+                            <p>Unhas naturais com toque elegante</p>
+                            <a href="https://wa.me/41984731761?text=Gostei%20deste%20design%20de%20unhas" class="overlay-btn" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i> Agendar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="galeria-item" data-categoria="Mão">
+                    <img src="IMAGENS/WhatsApp Image 2026-06-12 at 18.01.59 (4).jpeg" alt="Pedicure decorada com flores" />
+                    <span class="galeria-badge"><i class="fas fa-shoe-prints"></i> Mão</span>
+                    <div class="galeria-overlay">
+                        <div class="overlay-content">
+                            <h4>Pedicure Decorada</h4>
+                            <p>Detalhes especiais para um toque único</p>
+                            <a href="https://wa.me/41984731761?text=Gostei%20deste%20design%20de%20unhas" class="overlay-btn" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i> Agendar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="galeria-item" data-categoria="Design">
+                    <img src="IMAGENS/WhatsApp Image 2026-06-12 at 18.17.46.jpeg" alt="Unhas com efeito metálico" />
+                    <span class="galeria-badge"><i class="fas fa-palette"></i> Design</span>
+                    <div class="galeria-overlay">
+                        <div class="overlay-content">
+                            <h4>Efeito Metálico</h4>
+                            <p>Visual moderno com brilho poderoso</p>
+                            <a href="https://wa.me/41984731761?text=Gostei%20deste%20design%20de%20unhas" class="overlay-btn" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i> Agendar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="galeria-item" data-categoria="Mão">
+                    <img src="IMAGENS/WhatsApp Image 2026-06-12 at 18.17.46 (1).jpeg" alt="Unhas elegantes com detalhes minimalistas" />
+                    <span class="galeria-badge"><i class="fas fa-hand-sparkles"></i> Mão</span>
+                    <div class="galeria-overlay">
+                        <div class="overlay-content">
+                            <h4>Detalhes Minimalistas</h4>
+                            <p>Acabamento elegante e fino para qualquer ocasião</p>
+                            <a href="https://wa.me/41984731761?text=Gostei%20deste%20design%20de%20unhas" class="overlay-btn" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i> Agendar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DEPOIMENTOS: Avaliações de clientes com 5 estrelas -->
+    <section class="depoimentos" aria-label="Avaliações das clientes">
+        <div class="container">
+            <h2 class="section-title">Avaliações das Clientes</h2>
+
+            <div class="depoimentos-grid">
+                <!-- Depoimento 1 -->
+                <div class="depoimento-card">
+                    <div class="stars" aria-label="Classificação: 5 de 5 estrelas">
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                    </div>
+                    <p>"Adorei o atendimento! Unhas impecáveis, design perfeito. Voltarei com certeza!"</p>
+                    <strong>— Mariana Silva</strong>
+                </div>
+
+                <!-- Depoimento 2 -->
+                <div class="depoimento-card">
+                    <div class="stars" aria-label="Classificação: 5 de 5 estrelas">
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                    </div>
+                    <p>"Profissional atenta ao detalhe. Meus pés ficaram lindos! Recomendo muito."</p>
+                    <strong>— Juliana Costa</strong>
+                </div>
+
+                <!-- Depoimento 3 -->
+                <div class="depoimento-card">
+                    <div class="stars" aria-label="Classificação: 5 de 5 estrelas">
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                    </div>
+                    <p>"Ambiente aconchegante, atendimento de primeira! Só tenho a elogiar o KW Studio!"</p>
+                    <strong>— Patricia Mendes</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LOCALIZAÇÃO: Mapa do Google e informações de contato -->
+    <section id="localizacao" class="localizacao" aria-label="Localização do estúdio">
+        <div class="container">
+            <h2 class="section-title">Nossa Localização</h2>
+
+            <div class="localizacao-content">
+                <!-- Mapa Google Maps -->
+                <div class="mapa-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.8248!2d-49.41528!3d-25.40928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf2a6c5c5c5c5d%3A0x5c5c5c5c5c5c5c5c!2sRua%20Estanislau%20Mazepa%2C%20100%20-%20Vila%20Juliana%2C%20Piraquara%20-%20PR!5e0!3m2!1spt-BR!2sbr!4v1234567890"
+                            title="Mapa de localização do KW Studio na Rua Estanislau Mazepa, 100, Piraquara"
+                            width="100%" height="530" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <!-- Informações de contato -->
+                <div class="info-localizacao">
+                    <!-- Endereço -->
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Endereço</h4>
+                            <p>Rua Estanislau Mazepa, 100 - Vila Juliana - Piraquara/Paraná</p>
+                        </div>
+                    </div>
+
+                    <!-- WhatsApp -->
+                    <div class="info-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <a href="https://wa.me/41984731761" target="_blank" rel="noopener noreferrer" style="color: black; ">(41) 9 8473 1761</a>
+                        </div>
+                    </div>
+
+                    <!-- Horário de funcionamento -->
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Horário</h4>
+                            <div class="horario-info">
+                                <p><strong>Segunda à Sexta:</strong> 09h às 19h</p>
+                                <p><strong>Sábado:</strong> 09h às 17h</p>
+                                <p><strong>Domingo:</strong> Fechado</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATO: Formulário de contato e opções de comunicação -->
+    <section id="contato" class="contato" aria-label="Formulário de contato">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+
+            <div class="contato-wrapper">
+                <!-- Informações de contato rápido -->
+                <div class="contato-info">
+                    <h3>Vamos Conversar!</h3>
+                    <p>Tem dúvidas? Quer conhecer nossos serviços? Entre em contato conosco!</p>
+
+                    <!-- Opções de contato -->
+                    <div class="contato-opcoes">
+                        <a href="https://wa.me/41984731761?text=Olá%20KW%20Studio%21%20Gostaria%20de%20informações"
+                           class="opcao-contato whatsapp" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                            <span>WhatsApp</span>
+                        </a>
+
+                        <a href="tel:+5541984731761" class="opcao-contato telefone" aria-label="Telefone">
+                            <i class="fas fa-phone" aria-hidden="true"></i>
+                            <span>Telefone</span>
+                        </a>
+
+                        <a href="mailto:wesleysouza8473@gmail.com" class="opcao-contato email" aria-label="Email" style="color: white;">
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                            <span>Email</span>
+                        </a>
+
+                        <a href="https://www.instagram.com/kauanewandembruck_nails/" class="opcao-contato instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span>Instagram</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Formulário de contato -->
+                <form class="formulario-contato" id="formContato" role="form" aria-labelledby="contato-title" novalidate action="https://formsubmit.co/wesleysouza8473@gmail.com" method="POST" accept-charset="UTF-8">
+                    <input type="hidden" name="_subject" value="Novo contato pelo site KW Studio">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="text" name="_honey" style="display:none !important; visibility:hidden;" tabindex="-1" autocomplete="off">
+                    <!-- Campo: Nome -->
+                    <div class="form-group">
+                        <label for="nome" class="form-label">Seu Nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" autocomplete="name" inputmode="text" required aria-required="true" aria-describedby="error-nome">
+                        <div id="error-nome" class="form-error" aria-live="polite"></div>
+                    </div>
+
+                    <!-- Campo: Email -->
+                    <div class="form-group">
+                        <label for="email" class="form-label">Seu Email</label>
+                        <input type="email" id="email" name="_replyto" placeholder="Digite seu email" autocomplete="email" inputmode="email" required aria-required="true" aria-describedby="error-email">
+                        <div id="error-email" class="form-error" aria-live="polite"></div>
+                    </div>
+
+                    <!-- Campo: Telefone -->
+                    <div class="form-group">
+                        <label for="telefone" class="form-label">Seu Telefone/WhatsApp</label>
+                        <input type="tel" id="telefone" name="telefone" placeholder="(41) 9XXXX-XXXX" autocomplete="tel" inputmode="tel" maxlength="15" pattern="[0-9()+\-\s]{8,}" required aria-required="true" aria-describedby="error-telefone">
+                        <div id="error-telefone" class="form-error" aria-live="polite"></div>
+                    </div>
+
+                    <!-- Campo: Serviço -->
+                    <div class="form-group">
+                        <label for="servico" class="form-label">Selecione o Serviço</label>
+                        <select id="servico" name="servico" required aria-required="true" aria-describedby="error-servico">
+                            <option value="">-- Escolha um serviço --</option>
+                            <option value="Unhas de Mão">Unhas de Mão</option>
+                            <option value="Unhas de Pé">Unhas de Pé</option>
+                            <option value="Mão e Pé">Mão e Pé</option>
+                            <option value="Design Personalizado">Design Personalizado</option>
+                        </select>
+                        <div id="error-servico" class="form-error" aria-live="polite"></div>
+                    </div>
+
+                    <!-- Campo: Mensagem -->
+                    <div class="form-group">
+                        <label for="mensagem" class="form-label">Deixe sua mensagem</label>
+                        <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem..." rows="5" minlength="10" required aria-required="true" aria-describedby="error-mensagem"></textarea>
+                        <div id="error-mensagem" class="form-error" aria-live="polite"></div>
+                    </div>
+
+                    <!-- Botão de envio -->
+                    <button type="submit" class="btn btn-primary" aria-label="Enviar mensagem" aria-live="polite" data-submit-btn>
+                        <span class="btn-text">Enviar Mensagem</span>
+                        <span class="btn-spinner" aria-hidden="true"></span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER: Rodapé com informações e links -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <!-- Conteúdo do footer em 3 colunas -->
+            <div class="footer-content">
+                <!-- Coluna 1: Informações sobre a empresa -->
+                <div class="footer-section">
+                    <h4>KW Studio</h4>
+                    <p>Unhas de mão e pé com qualidade, estilo e dedicação.</p>
+                </div>
+
+                <!-- Coluna 2: Links rápidos -->
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#galeria">Galeria</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+
+                <!-- Coluna 3: Redes sociais -->
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/kauanewandembruck_nails/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="tel:+5541984731761" aria-label="Telefone"><i class="fas fa-phone"></i></a>
+                        <a href="mailto:wesleysouza8473@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        <a href="https://wa.me/41984731761" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear">2026</span> KW Studio - Kaune Wandembruck. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão flutuante do WhatsApp (sempre visível) -->
+    <a href="https://wa.me/41984731761?text=Olá%20KW%20Studio%21" class="whatsapp-button" target="_blank" rel="noopener noreferrer" title="Chamar no WhatsApp" aria-label="Chamar no WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Script JavaScript -->
+    <script src="SCRIPT.JS" defer></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "kw-studio",
+  "version": "1.0.0",
+  "description": "KW Studio - Salão de Unhas em Piraquara",
+  "main": "INDEX.HTML",
+  "scripts": {
+    "test": "echo \"No tests configured\" && exit 0"
+  },
+  "keywords": [
+    "salon",
+    "nails",
+    "beauty"
+  ],
+  "author": "KW Studio",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/speed-insights": "^1.0.0"
+  }
+}
